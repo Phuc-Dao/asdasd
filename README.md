@@ -1,10 +1,47 @@
 # Developers Guild
 
-A platform for developers to connect. They can create their portofolio by adding their experience, education, skills and other important information of their professional career.
+Demo: <a href="https://mighty-dusk-38771.herokuapp.com/" target="_blank"> Click here</a>
 
-Users can also create small posts and like/dislike and comment on other posts.
+A social media web app that allows developers to share their experiences and skills. This app features full user login and authentication and uses the github api to retrieve the top 5 projects from the developers repo. Below is a list of all the technologies used in this applications.
 
-Live link: <a href="https://mighty-dusk-38771.herokuapp.com/" target="_blank"> Click here</a>
+## Technologies Used
+
+### Client Side
+
+- **[React](https://github.com/facebook/react)**
+- **[Redux](https://github.com/reactjs/redux)**
+- **[Twitter Bootstap 4](https://github.com/twbs/bootstrap/tree/v4-dev)**
+- **[React-Router-DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+
+#### Libraries used in Client-side
+
+-  **[axios](https://github.com/axios/axios)**
+-  **[classnames](https://github.com/JedWatson/classnames)**
+-  **[react-moment](https://github.com/headzoo/react-moment)**
+-  **[react-redux](https://github.com/reduxjs/react-redux)**
+-  **[redux-thunk](https://github.com/reduxjs/redux-thunk)**
+-  **[validator](https://github.com/chriso/validator.js)**
+
+### Server Side
+
+-  **[Node.js / Express](https://github.com/expressjs/express)**
+-  **[MongoDB](https://github.com/mongodb/mongo)**
+-  **[JWT](https://github.com/auth0/node-jsonwebtoken)**
+-  **[Passport](http://www.passportjs.org/)**
+-  **[Passport-jwt](https://github.com/themikenicholson/passport-jwt)**
+
+#### Libraries used in Server-side
+
+-  **[bcryptjs](https://github.com/dcodeIO/bcrypt.js)**
+-  **[bluebird](http://bluebirdjs.com/docs/getting-started.html)**
+-  **[gravatar](https://github.com/emerleite/node-gravatar)**
+-  **[mongoose](http://mongoosejs.com/)**
+-  **[jwt-decode](https://github.com/auth0/jwt-decode)**
+-  **[moment](https://momentjs.com/)**
+-  **[validator](https://github.com/chriso/validator.js)**
+
+
+
 
 <img src="screenshots/homepage.jpg">
 
@@ -84,55 +121,3 @@ npm run build
 # deploy code to heroku
 git push heroku master:master
 ```
-
-<img src="img/dashboard.png">
-
----
-
-<img src="img/developer-profiles.png">
-
----
-
-<img src="img/post-feed.png">
-
----
-
-<img src="img/comment-feed.png">
-
----
-
-## Technologies Used
-
-### Client Side
-
-- **[React](https://github.com/facebook/react)**
-- **[Redux](https://github.com/reactjs/redux)**
-- **[Twitter Bootstap 4](https://github.com/twbs/bootstrap/tree/v4-dev)**
-- **[React-Router-DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
-
-#### Libraries used in Client-side
-
--  **[axios](https://github.com/axios/axios)**
--  **[classnames](https://github.com/JedWatson/classnames)**
--  **[react-moment](https://github.com/headzoo/react-moment)**
--  **[react-redux](https://github.com/reduxjs/react-redux)**
--  **[redux-thunk](https://github.com/reduxjs/redux-thunk)**
--  **[validator](https://github.com/chriso/validator.js)**
-
-### Server Side
-
--  **[Node.js / Express](https://github.com/expressjs/express)**
--  **[MongoDB](https://github.com/mongodb/mongo)**
--  **[JWT](https://github.com/auth0/node-jsonwebtoken)**
--  **[Passport](http://www.passportjs.org/)**
--  **[Passport-jwt](https://github.com/themikenicholson/passport-jwt)**
-
-#### Libraries used in Server-side
-
--  **[bcryptjs](https://github.com/dcodeIO/bcrypt.js)**
--  **[bluebird](http://bluebirdjs.com/docs/getting-started.html)**
--  **[gravatar](https://github.com/emerleite/node-gravatar)**
--  **[mongoose](http://mongoosejs.com/)**
--  **[jwt-decode](https://github.com/auth0/jwt-decode)**
--  **[moment](https://momentjs.com/)**
--  **[validator](https://github.com/chriso/validator.js)**
