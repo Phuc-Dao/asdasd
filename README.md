@@ -1,6 +1,6 @@
 # Developers Guild
 
-Demo: <a href="https://mighty-dusk-38771.herokuapp.com/" target="_blank"> Click here</a>
+Demo: <a href="https://stark-earth-96740.herokuapp.com/" target="_blank"> Click here</a>
 
 A social media web app that allows developers to share their experiences and skills. This app features full user login and authentication and uses the github api to retrieve the top 5 projects from the developers repo. Below is a list of all the technologies used in this applications.
 
